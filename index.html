@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no, address=no, email=no">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <meta name="Keywords" content="샤롯데씨어터, Charlotte, theater, lotte, musical">
+    <meta name="Description" content="샤롯데씨어터 공식 홈페이지. 뮤지컬 전문 공연장으로 최신 공연 정보, 예매, 관람 안내 등을 제공합니다.">
+    <title>Charlotte theater</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!--헤더 영역-->
+    <header id="main_header">
+        <h1><a href="#">Charlotte theater</a></h1>
+            <!--gnb 영역-->
+        <nav class="gnb">
+            <ul>
+                <li>
+                    <a href="#">공연장 소개</a>
+                    <div class="sub">
+                        <ul>
+                            <li><a href="#">샤롯데씨어터</a></li>
+                            <li><a href="#">공연시설</a></li>
+                            <li><a href="#">층별 안내</a></li>
+                        </ul>
+                    </div>
+                </li>
+            
+                <li>
+                    <a href="#">샬롯 다이닝</a>
+                    <div class="sub">
+                        <ul>
+                            <li><a href="#">커튼콜 인 샬롯</a></li>
+                            <li><a href="#">뮤지컬 패키지</a></li>
+                        </ul>
+                    </div>
+                </li>
+            
+                <li>
+                    <a href="#">공연예매</a>
+                    <div class="sub">
+                        <ul>
+                            <li><a href="#">공연예매</a></li>
+                        </ul>
+                    </div>
+                </li>
+            
+                <li>
+                    <a href="#">이용 안내</a>
+                    <div class="sub">
+                        <ul>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">고객문의</a></li>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">오시는 길</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="sub_bg"></div>
+        <nav class="tnb">
+            <a href="#" class="login">Login</a>
+            <!--<button class="search">Search</button>-->
+            <input id="searchbtn" type="image" src="./img/icon/ic_search.png"> 
+        </nav>
+        <button type="button"class="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+            <!--메뉴닫기-->
+            <span class="sr_only">전체메뉴</span>
+        </button>
+    </header>
+
+    <!-- 검색 박스 -->
+    <div id="search_box">
+        <form action="#" method="get">
+            <!-- <a href="#" class="search">검색</a> -->
+            <input type="search" id="search" name="search" placeholder="검색어를 입력하세요.">
+            <button type="submit">검색</button>
+        </form>
+        <button type="button" id="closeBtn" >close</button>
+    </div>
+
+
+    <!--메인 프로모션 영상 영역-->
+    
+    <section id="main_visual">
+        <div class="swiper1"> 
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="./img/images/main_poster_kinky_1.png" alt="킹키부츠" class="desktop">
+                        <img src="./img/images/main_poster_kinky_2.png" alt="킹키부츠" class="tablet">
+                        <img src="./img/images/main_poster_kinky_3.png" alt="킹키부츠" class="mobile">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="./img/images/main_poster_mrs.doubtfire_1.png" alt="미세스 다웃파이어" class="desktop">
+                        <img src="./img/images/main_poster_mrs.doubtfire_2.png" alt="미세스 다웃파이어" class="tablet">
+                        <img src="./img/images/main_poster_mrs.doubtfire_3.png" alt="미세스 다웃파이어" class="mobile">
+                        
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <img src="./img/images/main_poster_42ndstreet_1.png" alt="브로드웨이 42번가" class="desktop">
+                        <img src="./img/images/main_poster_42ndstreet_2.png" alt="브로드웨이 42번가" class="tablet">
+                        <img src="./img/images/main_poster_42ndstreet_3.png" alt="브로드웨이 42번가" class="mobile">
+                    </a>
+                </div>
+            </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+        
+        </div>
+    </section>
+    
+
+    <!--what's on 영역-->
+    <section id="innerbox">
+        <h2>What’s ON</h2>
+        <div class="content">
+            <div id="posters">
+                <a href="#"><img src="./img/images/s_main_poster_mrs.doubtfire.png" alt="미세스 다웃파이어"></a>
+                <a href="#"><img src="./img/images/s_main_poster_kingki.png" alt=" 킹키부츠 "></a>
+                <a href="#"><img src="./img/images/s_main_poster_42ndstreet.png" alt="브로드웨이 42번가"></a>
+            </div>
+            <div class="info_wrap">
+                <div class="mrs">
+                    <h3>미세스 다웃파이어</h3>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><span>일시</span></td>
+                                <td> 2025.09.27 - 2025.12.07 </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><span>공연 시간</span></td>
+                                <td> 평일 화,목 19시 30분  수,금 14시 30분, <br> 
+                                    19시 30분  토요일 토 14시, 19시</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><span>티켓 가격</span></td>
+                                <td> VIP석 170,000 원  / R석 140,000 원 <br>
+                                    S석 11,000 원 /  A석 80,000 원  / </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><span>입장연령</span></td>
+                                <td> 8세 이상 관람  </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><span>소요시간</span></td>
+                                <td> 175분 (인터미션 20분 포함) </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><span>문의</span></td>
+                                <td> 1588-5212</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#">예매하기</a>
+                </div>
+                <div class="kinky">
+                    <h3>킹키부츠</h3>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><span>일시</span></td>
+                                <td> 2025.12.17 - 2026.03.29 </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><span>공연 시간</span></td>
+                                <td> 평일 화,목,금 19시 30분  수,금 14시 30분, <br>  
+                                    19시 30분  토요일 토 14시, 19시</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><span>티켓 가격</span></td>
+                                <td> OP석 170,000 원 / VIP석 170,000 원 / <br> 
+                                    R석 140,000 원 / S석 11,000 원 / <br>
+                                    A석 80,000 원</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><span>입장연령</span></td>
+                                <td> 8세 이상 관람  </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><span>소요시간</span></td>
+                                <td> 160분 (인터미션 20분 포함) </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><span>문의</span></td>
+                                <td> 1588-5212</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#">예매하기</a>
+                </div>
+                <div class="broadway">
+                    <h3>브로드웨이 42번가</h3>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><span>일시</span></th>
+                                <td> 2025.07.10 - 2025.09.14 </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><span>공연 시간</span></th>
+                                <td> 평일 화,목,금 19시 30분 토요일 토 14시, <br>  
+                                    18시 30분 일 14시 일요일 및 공휴일</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><span>티켓 가격</span></th>
+                                <td> VIP석 160,000 원  / R석 140,000 원 / <br>
+                                    S석 11,000 원 /  A석 80,000 원 </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><span>입장연령</span></th>
+                                <td> 8세 이상 관람  </td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><span>소요시간</span></th>
+                                <td> 160분 (인터미션 20분 포함)</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><span>문의</span></th>
+                                <td> 1588-5212</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <a href="#">예매하기</a>
+                </div>
+            </div>
+            <div class="page">
+                <a href="#">이전페이지</a>
+                <ul class="pagination">
+                    <li><a href="#" class="num active">1</a></li>
+                    <li><a href="#" class="num">2</a></li>
+                    <li><a href="#" class="num">3</a></li>
+                </ul>
+                <a href="#">다음페이지</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--공지 영역-->
+    <section id="notice_content"> 
+        <div class="content_header">
+            <h2>Notice</h2>
+            <a href="#" class="more">더보기</a>
+        </div>
+        <div id="swiper2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="./img/images/L_notice_ticket_01.png" alt="미세스 다웃파이어 2차 티켓 오픈안내">
+                            <figcaption>
+                                <div class="basic_info">
+                                    <p class="ticket">티켓</p>
+                                    <p>2차 티켓 오픈 안내</p>
+                                    <p>미세스 다웃 파이어</p>
+                                </div>
+                                <div class="detail_info">
+                                    <p>샤롯데씨어터 선오픈 | 9월 4일(목) 오후 3시</p>
+                                    <p>2차 티켓오픈 공연 기간 | 10월 28일(화) - 11월 16일(일)</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="./img/images/L_notice_ticket_02.png" alt="브로드웨이 42번가 3차 티켓 오픈안내">
+                            <figcaption>
+                                <div class="basic_info">
+                                    <p class="ticket">티켓</p>
+                                    <p>3차 티켓 오픈 안내</p>
+                                    <p>브로드웨이 42번가</p>
+                                </div>
+                                    <div class="detail_info">
+                                    <p>샤롯데씨어터 선오픈 | 7월 10일(목) 오후 2시</p>
+                                    <p>3차 티켓오픈 공연 기간 | 8월 26일(화) ~  9월 14일(일)</p>
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="./img/images/L_notice_theater_03.png" alt="대관 공고 2025년 샤롯데씨어터 ">
+                                <figcaption>
+                                <div class="basic_info">
+                                    <p class="rental">대관</p>
+                                    <p>2025년 상반기 샤롯데씨어터</p>
+                                    <p>대관 공고</p>
+                                </div>
+                                    <div class="detail_info">
+                                    <p>대관 공고 일정 | 2026. 5 ~ 2027. 5</p>
+                                    <p>접수 기간 | 3월 12일(수) ~ 3월 25일(화)</p>
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="./img/images/L_notice_etc_04.png" alt="오페라글라스 대여안내 온라인 사전예약">
+                                <figcaption>
+                                <div class="basic_info">
+                                    <p class="etc">기타</p>
+                                    <p>온라인 사전예약</p>
+                                    <p>오페라글라스 대여안내</p>
+                                </div>
+                                    <div class="detail_info">
+                                    <p>예매 오픈 | 2025년 9월 5일(금) 오후 5시<br></p>
+                                    <p>공지사항 | 공연 시작 2시간 전까지 사전 예약 가능</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="./img/images/L_notice_etc_05.png" alt="킹키부츠 1차 티켓 오픈안내">
+                                <figcaption>
+                                <div class="basic_info">
+                                    <p class="ticket">티켓</p>
+                                    <p>1차 티켓오픈 안내</p>
+                                    <p>킹키부츠</p>
+                                </div>
+                                    <div class="detail_info">
+                                    <p>예매 오픈 | 2025년 10월 16일(목) 오후 2시</p>
+                                    <p>1차 티켓오픈 공연 기간 | 12월 17일(수) - 1월 4일(일)</p>
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="./img/images/L_notice_etc_06.png" alt="입차지연 및 만차 안내">
+                                <figcaption>
+                                <div class="basic_info">
+                                    <p class="etc">기타</p>
+                                    <p>주차 안내</p>
+                                    <p>입차지연 및 만차 안내</p>
+                                </div>
+                                    <div class="detail_info">
+                                    <p>일정 2025년 10월 3일(금) - 10월 12일(일)</p>
+                                    <p>공지사항 | 잠실 일대에 교통 체증 및 주차장 만차가 예상</p>
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="#">
+                        <figure>
+                            <img src="./img/images/L_notice_etc_07.png" alt="개인정보처리방침 안내">
+                                <figcaption>
+                                <div class="basic_info">
+                                    <p class="etc">기타</p>
+                                    <p>개인정보처리방침</p>
+                                    <p>개인정보처리방침 안내</p>
+                                </div>
+                                    <div class="detail_info">
+                                        <p>일정 2025년 8월 14일(목) - 8월 21일(목)</p>
+                                        <p>개인정보취급방침이 아래와 같이 변경됨을 알려드립니다.</p>
+                                </p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--서비스 영역 (1.이벤트/2.샬롯다이닝)-->
+    <section id="service_content">
+        <h2>Service</h2>
+        <div class="content_1">
+            <div class="event_header">
+                <div>
+                    <h3>이벤트</h3>
+                    <p>샤롯데씨어터만의 특별한 이벤트와 프로모션 소식을 만나보세요!</p>
+                </div>                
+                <a href="#">더보기</a>                
+            </div>
+            <div class="event_box">
+                <div class="event_img">
+                    <div class="events">
+                        <a href="#"><img src="./img/images/event_01.png" alt="샤롯데씨어터 엔제리너스 팬 서포트존 모집 안내"></a>
+                        <a href="#"><img src="./img/images/event_02.png" alt="미세스 다웃파이어 샤롯데L 패키지 프로모션"></a>
+                        <a href="#"><img src="./img/images/event_03.png" alt="고은성 배우 데뷔 12주년 내부 전광판 광고"></a>
+                        <a href="#"><img src="./img/images/event_04.png" alt="뮤지컬 헤드윅 X 샤롯데 X 롯데ON 특별 프로모션"></a>
+                        <a href="#"><img src="./img/images/event_05.png" alt="샤롯데씨어터 커피차 패키지 출시!"></a>
+                        <a href="#"><img src="./img/images/event_06.png" alt="조형균 배우 하데스타운 100회 공연 축하 광고"></a>
+                    </div>
+                </div>
+                <!-- 진행바 영역 -->
+                <div class="track">
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+        <div class="content_2">
+            <div class="content_header">
+                <h3>샬롯 다이닝</h3>
+                <p>샤롯데씨어터 내부에 위치한 샬롯 다이닝은 공연과 어울리는 새로운 경험을 선사하는 공간입니다.</p>
+            </div>
+            <div class="content_body">
+                <div class="imgs">
+                    <img src="./img/images/charlotte_dining_01.png" alt="커튼콜 인 샬롯"> <img src="./img/images/charlotte_dining_02.png" alt="커튼콜 인 샬롯">
+                    <img src="./img/images/charlotte_dining_03.png" alt="커튼콜 인 샬롯"> <img src="./img/images/charlotte_dining_04.png" alt="커튼콜 인 샬롯">
+                </div>
+                <div class="info">
+                    <h4>
+                        <span><span class="blockbar">국내 최초 '뮤지컬 전용 극장 x 뮤지컬펍' 콜라보레이션</span></span>
+                        <span>CURTAIN CALL IN CHARLOTTE</span>
+                    </h4>
+                    <p>샤롯데씨어터에서 펼쳐지는 국내 최초 뮤지컬펍 커튼콜의 <br>
+                        새로운 무대에 초대합니다. "일상이 무대가 되는 순간, 커튼콜 인 샬롯!" <br>
+                        뮤지컬을 미식으로 확장한 새로운 개념의 뮤지컬펍 작품에서 <br>
+                        영감 받은 칵테일과 생생한 퍼포먼스가 일상의 감동으로 이어집니다.
+                    </p>
+                    <a href="#">자세히보기</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!--배너 영역-->
+    <section id="main_banner">
+        <a href="#">
+            <img src="./img/images/banner_1.png" alt="커튼콜 인 샬롯 X 미세스 다웃파이어 패키지" class="desktop">
+            <img src="./img/images/banner_2.png" alt="커튼콜 인 샬롯 X 미세스 다웃파이어 패키지" class="tablet">
+            <img src="./img/images/banner_3.png" alt="커튼콜 인 샬롯 X 미세스 다웃파이어 패키지" class="mobile">
+        </a>
+    </section>
+    
+    <!--플로팅 버튼 (주차안내/top)
+    <button class="top">Top</button>-->
+    <aside id="btn">
+        <div class="parking">
+            <a href="#" class="parking_info">주차안내</a>
+            <div class="popup">
+                <strong>주차 가능 수</strong>
+                <dl>
+                    <dt>B2</dt> <dd>17</dd>
+                    <dt>B3</dt> <dd>43</dd>
+                </dl>
+                <p> 롯데월드 단지 지하 주차 가능  /  롯데타워&amp롯데월드 몰 주차장 제외</p>
+            </div>
+        </div>
+        <a href="#" class="top">위로가기</a>
+    </aside>
+
+    <!--푸터 영역-->
+    <footer id="main_footer">
+        <div class="footer_top">
+            <a href="#">footer logo</a>
+            <div class="footer_menu">
+                    <ul>
+                        <a href="#"><li>회원 약관</li></a>
+                        <a href="#"><li>개인정보처리방침</li></a>
+                        <a href="#"><li>사이트맵</li></a>
+                    </ul>
+                    <div class="center">
+                        <h3>고객센터</h3>
+                        <div>
+                            <p>예매/공연 및 기타문의</p> <span><a href="tel:18770677">1877-6077</a></span>
+                            <p>분실문 문의</p> <span><a href="tel:024115014">02-411-5017</a></span>
+                            <p>공연장 광고 문의</p><span>KIM_YG&copy;lotte.net</span>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="sns">
+                <ul>
+                    <li><a href="#">instagram</a></li>
+                    <li><a href="#">X</a></li>
+                    <li><a href="#">naver_blog</a></li>
+                </ul>
+            </div>
+            <div class="adress"> 
+                <address>
+                        <div class="row_1">
+                            <dl>
+                                <dt>주소</dt><dd>서울특별시 송파구 올림픽로 240(잠실동)</dd>
+                            </dl>
+                        </div>
+                        <div class="row_2">
+                            <dl>
+                                <dt>롯데</dt>                <dd>컬처웍스㈜</dd>
+                                <dt>대표이사</dt>            <dd>김종열</dd>
+                                <dt>사업자등록번호</dt>      <dd>313-87-00979</dd>
+                                <dt>통신판매업신고번호</dt>  <dd>제1184호</dd>
+                                <dt>개인정보관리 책임자</dt> <dd>본부장 김병문</dd>
+                            </dl>
+                        </div>
+                </address>
+                <p>Copyright&copy; LOTTE CULTUREWORKS All rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+<script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+<script src="./js/script.js"></script>
